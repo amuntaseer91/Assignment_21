@@ -1,0 +1,279 @@
+/*font-family: 'Montserrat', sans-serif;*/
+@font-face {
+  font-family: myFirstFont;
+  src: url(../good_dog/GOODDC__.TTF);
+}
+
+@font-face {
+  font-family: mySecondFont;
+  src: url(../Myriad Pro Regular/Myriad Pro Regular.ttf);
+}
+
+/*header start*/
+.bg_img{
+	background-image: url('../image/title.png');
+	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	
+  	
+}
+.menu{
+	padding-left: 400px;
+}
+.menu ul li a{
+	padding-top: 58px;
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 30px;
+	font-weight: 400;
+	color: #9fb277 !important;
+	transition: 0.3s;
+}
+.menu ul li:nth-child(1) a{
+	padding-right: 50px ;
+
+}
+.menu ul li:nth-child(2) a{
+	padding-right: 15px;
+
+}
+.menu ul li:nth-child(3) a{
+	padding-right: 15px ;
+
+}
+.menu ul li:nth-child(4) a{
+	padding-right: 0 ;
+
+}
+.menu ul li a:hover{
+	color: white !important;
+	
+}
+.t_img{
+	padding: 84px 0 104px 0;
+}
+.t_text{
+	padding-bottom: 150px;
+
+}
+.t_text h2{
+	font-family: 'Montserrat', sans-serif; 
+	font-weight: 400 !important;
+	font-size: 35px !important;
+	color: #9baf6d;
+}
+.t_text h2{
+	font-family: 'Montserrat', sans-serif; 
+	font-weight: 700;
+	font-size: 30px !important;
+	color: #9baf6d;
+}
+.t_button{
+	padding-bottom: 246px;
+}
+.t_button button{
+	padding: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	color: #afc67b;
+	border:none;
+	background-color: #545a4a;
+    background-repeat:no-repeat;
+    opacity: 0.8;
+    cursor:pointer;
+    
+}
+/*header end*/
+/*food start*/
+.m_bg{
+	background-image: url('../image/m_bg.png');
+	background-size: cover;
+  	background-repeat: repeat;
+  	background-position: center;
+  	
+}
+
+.fd_content{
+	padding: 60px 0 0 0;
+	margin-right: 35px;
+}
+.fd_content h5{
+	padding-bottom: 48px;
+	font-family: myFirstFont;
+	font-size: 25px;
+	color: #afc67b;
+
+}
+.fd_content p{
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 18px;
+	color: #e1e1e1;
+}
+.fd_img img{
+	margin-left: 118px;
+}
+/*food end*/
+/*taste start*/
+.ts_bg {
+	background-image: url('../image/taste.png');
+	background-size: cover;
+  	background-repeat: repeat;
+  	background-position: center;
+  	opacity: 0.9;
+}
+.taste{
+	padding: 90px 170px 90px 170px;
+}
+.single_item{
+	padding-right: 86px;
+
+}
+.single_item h5{
+	padding: 32px 0 38px 0;
+	font-family: myFirstFont;
+	font-size: 25px;
+	font-weight: 700;
+	color: #7e8177;
+}
+.single_item p{
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 20px;
+	font-weight: 100;
+	color: #bebfbb;
+}
+/*taste end*/
+/*list start*/
+
+.list {
+}
+
+.list_title {
+	padding: 66px 360px;
+
+}
+.list_title h3{
+	font-family: myFirstFont;
+	font-size: 40px;
+	font-weight: 700;
+	color: #afc67b;
+	text-align: center;
+}
+.list_title  h1{
+	font-family:  'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 200;
+	color: #bebfbb;
+	line-height: 1;
+	text-align: center;
+}
+.sl_img{
+	padding-right: 2px;
+}
+.sl_text {
+	padding-top: 30px;
+	
+}
+.sl_text h3{
+	font-family: myFirstFont;
+	font-size: 30px;
+	font-weight: 700;
+	color: #afc67b;
+	text-align: center;
+}
+.sl_text h5 , .sl_text p{
+	padding-top:  10px;
+	font-family:  mySecondFont;
+	font-size: 16px;
+	font-weight: 200;
+	color: #bebfbb;
+	text-align: center;
+	margin-right: 12px;
+	
+}
+.sl_img img{
+	padding: 0 !important ;
+
+}
+/*list end*/
+/*simple start*/
+.simple{
+	margin-top: 83px;
+	text-align: center; 
+}
+.s_content{
+	padding: 112px 0 93px 0;
+}
+.s_content h1{
+	font-family: myFirstFont;
+	font-size: 30px;
+	font-weight: 700;
+	color: #afc67b;
+	
+}
+.s_content p{
+	padding: 10px 0 52px 0;
+	font-family:  mySecondFont;
+	font-size: 16px;
+	font-weight: 200;
+	color: #bebfbb;
+}
+
+/*simple end*/
+/*booking start*/
+
+.b_content{
+	padding: 0 0 60px 0;
+}
+.b_content h1{
+	padding: 42px 0;
+	font-family:  myFirstFont;
+	font-size: 77px;
+	font-weight: 200;
+	color: white;
+	text-align: center;
+}
+.name{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+.b_button input{
+	padding: 0 50px;
+	font-family: 'Montserrat', sans-serif;
+}
+/*booking end*/
+/*footer start*/
+.footer{
+	text-align: center;
+	padding: 40px 0 40px 0;
+}
+.f_content{
+	text-align: center;
+	padding-top: 0 !important;
+}
+.f_content img{
+	padding-bottom: 29px;
+}
+.f_content p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #afc67b;
+}
+.f_content h6{
+	padding-bottom: 31px;
+	font-family: myFirstFont;
+	font-size: 30px;
+	color: #afc67b;
+
+}
+.f_icon ul li a i{
+	
+	padding: 0 20px 0 20px ;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	
+}
+.f_icon ul li a i:hover{
+	color: black;
+}
+/*footer end*/
